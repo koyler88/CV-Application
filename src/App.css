@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+}
+
+.page-container {
+    display: flex;
+}
+
+/* Landing Page */
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    background-color: lightgray;
+    align-items: center;
+    box-shadow: 0px 0px 3px black;
+}
+
+h1 {
+    color: rgb(8, 63, 8);
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+
+
+.build {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 1%;
+    font-size: 1.5rem;
+    width: fit-content;
+}
+
+.landing {
+    text-align: center;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.resume-img {
+    width: 70%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px black;
+}
+
+footer {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: lightgray;
+    width: 100%;
+}
+
+/* Building */
+
+.side-nav {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    align-items: center;
+}
+.category {
+    border: none;
+    border-radius: 20px;
+    width: 90%;
+    font-size: 20px;
+    height: 50px;
+    margin: 5px;
+    color: rgb(151, 157, 170);
+    box-shadow: 0px 1px 2px black;
+}
+
+.category.active {
+    background-color: rgb(96, 164, 239);
+    color: white;
+}
+
+.form {
+    width: 70%;
+    height: 70vh;
+    background-color: rgb(243, 248, 255);
+    margin-top: 5vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.form-title {
+    font-size: 3em;
+}
+
+.form-instruction {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.form-container {
+    display: flex;
+    gap: 1em;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.stack {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;
+}
+
+label {
+    color: gray;
+}
+
+.stack:has(input:focus) {
+    border: 3px solid gray;
+}
+
+input {
+    border: none;
+    font-size: 1em;
+}
+
+input:focus {
+    outline: none;
+}
+
+.two-wide {
+    width: 40%;
+}
+
+.three-wide {
+    width: 25%;
+}
+
+.preview-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    box-shadow: 0px 0px 3px gray;
+    background-color: rgb(243, 248, 255);
+    width: 60%;
+    height: 70vh;
+    margin-top: 5vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.preview-name {
+    font-size: 3em;
+    color: rgb(65, 65, 228);
+}
+
+.section-title {
+    color: rgb(65, 65, 228);
+    font-size: 2em;
+}
+
+.info-container {
+    display: flex;
+    gap: 10px;
+}
+
+.personal-info {
+    font-size: 0.9em;
+}
+
+.bottomline {
+    border-bottom: 1px solid black;
+}
+
+.job-info {
+    color: rgb(95, 94, 94);
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.education-info {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
